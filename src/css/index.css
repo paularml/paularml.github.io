@@ -29,9 +29,23 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  i {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 768px) {
+  i.bi {
+    font-size: 4em;
+  }
+}
+
 .card {
   transition: all 0.4s;
   background-color: var(--vinho);
+  word-spacing: -0.1em;
+  hyphens: auto;
 }
 
 .card:hover {
