@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 
 :root {
-  --cinza: #BFB9B8;
+  --cinza: #EF4BF2;
   --bege: #BF948A;
-  --vinho: #591E18;
+  --vinho: #230C26;
   --vermelho: #A61F1F;
 
 }
@@ -16,7 +16,8 @@
 }
 
 body {
-  background-color: var(--vermelho);
+  background-image: url("../resources/back.gif");
+  background-size: cover !important;
 }
 
 .group-card {
